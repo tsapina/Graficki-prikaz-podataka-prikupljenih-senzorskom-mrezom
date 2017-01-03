@@ -1,0 +1,86 @@
+body 
+{
+	margin:0; /* This is used to reset any browser-default margins */ 
+}
+
+#map
+{ 
+	height:100vh; 
+	margin-bottom: 120px;
+}
+
+.app-wrapper{
+	padding: 120px 15px;
+    text-align: center;
+}
+
+#graphdiv2{
+	margin-bottom: 200px;
+}
+
+
+.dygraph-legend{
+	 width: auto !important; 
+	 top: 550px !important; 
+	 left: 50px !important; 
+}
+
+.infotext { }
+
+.dygraph-label { font-family: Georgia, Verdana, serif; }
+
+.dygraph-title { font-size: 20px; text-shadow: gray 1px 1px 1px; }
+
+.dygraph-ylabel { font-size: 18px; text-shadow: gray -2px 2px 2px; }
+.dygraph-xlabel { font-size: 18px; text-shadow: gray -2px 2px 2px; }
+.chart { border: 1px dashed black; margin: 5px 5px 5px 50px; padding: 2px; }
+
+.map-table{
+	 white-space: nowrap;
+}
+.map-table th
+{
+	font-size: 10px;
+	padding: 5px !important;
+}
+
+.map-table td
+{
+    font-size: 10px;
+    text-align: center;
+    padding: 5px !important;
+}
+.leaflet-popup-content 
+{
+    margin: 45px !important;
+}
+
+.legend{
+    
+    color: #555;
+    background-color: blue;
+}
+
+.info{
+	padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    clear: both;
+}
+
+.station-desc{
+    text-align: left;
+}
